@@ -12,6 +12,7 @@ require.config({
 })
 
 // 程序入口
+// 程序入口
 require(['myroute'],function(){
 
     location.hash = '#/car'
