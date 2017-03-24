@@ -1,0 +1,27 @@
+
+        *{padding: 0;margin: 0}
+        html,body{width: 100%;height: 100%;}
+        body{
+            background:white;
+        }
+        nav{
+          width: 100%;height:100px;
+          /*position: fixed;*/
+          position:  relative;
+          top: 0;
+           background:grey;
+        }
+        nav ul{
+          width: 100%;height: 100%;
+          height: 50px;
+          display: flex;
+          text-align: center;
+          line-height: 50px;
+        }
+        nav ul li{
+          list-style: none;
+          flex: 1;
+        }
+        #container{
+          width: 100%;
+        }
